@@ -1,8 +1,8 @@
 # O que é o rtp?
 
-Basicamente, tenho mania de quando remover/desinstalar um programa, apagar tudo referente a ele, pasta, arquivos, etc. Então, para diminuir esse “processo”, eu criei um script chamado rtp (remove this program). A ideia era só agilizar meu tempo e ter um retorno mais claro do que estou fazendo, além de, claro, estudar mais sobre scripts.
+Basicamente, tenho mania de quando remover/desinstalar um programa, apagar tudo referente a ele, pasta, arquivos, etc. Então, para diminuir esse “processo”, criei um script chamado rtp (remove this program). A ideia era só agilizar meu tempo e ter um retorno mais claro do que estou fazendo, além de, claro, estudar mais sobre scripts.
 
-Aqui uma breve explicação que fiz para mim mesmo, durante sua criação:
+Aqui uma breve explicação que fiz para mim mesmo, durante a criação:
 
 ## Explicando o rtp (remove this program)
 
