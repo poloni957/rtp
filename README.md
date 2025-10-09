@@ -5,7 +5,6 @@ Basicamente, tenho mania de quando remover/desinstalar um programa, apagar tudo 
 Aqui uma breve explicação que fiz para mim mesmo, durante sua criação:
 
 ## Explicando o rtp (remove this program)
----
 
 ### Verifica se o usuário passou um pacote
 
