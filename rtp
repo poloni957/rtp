@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-# Verifica se o usuário passou um pacote
+# verifica se o usuário passou um pacote
 if [ -z "$1" ]; then
     echo "Uso: rtp <pkg>"
     exit 1
 fi
 
+# cria a variável
 PKG=$1
 
+# roda dnf remove com o nome da variável
 echo "==> Removendo $PKG com dnf"
 sudo dnf remove "$PKG"
 
@@ -17,6 +19,7 @@ sudo dnf autoremove -y
 echo "==> Limpando cache do dnf"
 sudo dnf clean all
 
+# procura por resíduos no ~ com a variável
 echo "==> Procurando por resíduos em ~"
 RESIDUOS=$(find ~ -type d -iname "*$PKG*" 2>/dev/null)
 
